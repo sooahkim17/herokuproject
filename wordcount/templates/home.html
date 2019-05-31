@@ -1,0 +1,9 @@
+<h1>안녕하세요. 글자를 세는 프로그램입니다.</h1>
+
+<a href="{% url 'about' %}">ABOUT</a>
+
+<form action="{% url 'result' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count">
+</form>
